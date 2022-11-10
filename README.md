@@ -17,6 +17,8 @@ The insurance company has helpfully compiled data on a large number of patients.
 
 In this project, I developed an approach to working with the information.  The client company has provided a list of questions they would like to address.  In addition to building the report, I also present recommendations on how to improve upon the infrastructure and identify opportunities for the client to make use of the information.
 
+<img width="1010" alt="image" src="https://user-images.githubusercontent.com/103723722/201209260-329fdaa9-be3a-43d2-9766-b5b0a5bc3ba7.png">
+
 
 ## Generating reportings
 
