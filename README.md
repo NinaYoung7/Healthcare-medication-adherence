@@ -41,6 +41,7 @@ In addition to the summary, our team has identified specific questions of intere
 This part of the report is directed to medical case management teams throughout the client’s company. The idea is to give them the useful information they need to act on the specific questions they posed. 
 
 ### Questions
+
 1.What was the median length of followup?  What percentage of the patients had at least 1 year of records?
 
 2.For patients with at least 1 year of follow-up, their one-year adherence to a medication is the proportion of days in the first year after diagnosis during which the medication was possessed. For each medication, what was the average one-year adherence for the population? Use only the patients with at least 1 year of follow-up records.
@@ -48,26 +49,34 @@ This part of the report is directed to medical case management teams throughout 
 3.How many medications are the patients taking? For patients with at least one year of follow-up, use their records during the first year after the initial diagnosis. Calculate the overall percentage distribution of the days that the patients are taking 0, 1, 2, and all 3 medications.
 
 4.What is the impact of age, sex, region, diabetes, and baseline condition on the one-year adherence to each medication? Use only the patients with at least 1 year of follow-up records. Fit separate linear regression models for each medicine.  Then briefly comment on the results.
+
   ⦿ACE Inhibitors
+  
   ⦿Beta Blockers
+  
   ⦿Statins
   
 5.For each medicine, what percentage of the patients filled a prescription in the first two weeks after their initial diagnoses?
 6.Now let’s compare those who filled a prescription for a statin in the first two weeks after diagnosis to those who did not. Do these two groups have different baseline covariates? Compare the groups based on their ages. Then compare the distribution of baseline conditions in the two groups. For continuous variables, compare their means using a t-test. For the categorical variables, compare their distributions using a chi-squared test.
 
   ⦿Age
+  
   ⦿Baseline Conditions
 
 7.How do the variables of age, sex, region, diabetes, and baseline condition impact the likelihood of initiating a medication within 14 days? For each medicine, fit a logistic regression model and comment on the results.
 
   ⦿ACE Inhibitors
+  
   ⦿Beta Blockers
+  
   ⦿Statins
   
 8.For those who did fill their prescriptions within 2 weeks, how long does it typically take to fill that first prescription after the initial diagnosis? For each medicine, provide the mean, median, and standard deviation in units of days.
 
   ⦿ACE Inhibitors
+  
   ⦿Beta Blockers
+  
   ⦿Statins
   
 9. How does filling a prescription in the first two weeks impact adherence? If we want to see that a medicine is working, we need to start the observation after the patient has had a chance to fill the prescription. To answer this question, we will follow a number of steps:
@@ -79,13 +88,18 @@ This part of the report is directed to medical case management teams throughout 
    3) Fit a linear regression model of this one-year adherence including the baseline covariates (age, sex, region, diabetes, baseline condition) and an indicator of whether this patient filled a prescription for the medicine in the first two weeks.
 
       Perform this analysis for each medicine and comment on the results.
+      
           ⦿ACE Inhibitors
+          
           ⦿Beta Blockers
+          
           ⦿Statins
 
 10. Once a patient starts a medication, how long do they continuously have a filled prescription? For each patient who filled a medication, start with the first filled prescription and count the duration of days until a gap occurs or follow-up ends. Then provide the mean, median, and standard deviation for these durations. Do this separately for each medicine.
   ⦿ACE Inhibitors
+  
   ⦿Beta Blockers
+  
   ⦿Statins
 
 ## Part 3: Generalization
