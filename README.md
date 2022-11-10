@@ -100,8 +100,8 @@ This part of the report is directed to medical case management teams throughout 
     ⦿ACE Inhibitors
   
     ⦿Beta Blockers
-    
-   ⦿Statins
+     
+    ⦿Statins
 
 ## Part 3: Generalization
 This part of the report will be directed internally to the team’s engagement manager. The idea is to present these approaches to our team. The work is then be conveyed to the client’s technical team and middle managers.
